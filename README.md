@@ -8,8 +8,9 @@
 *Write an application that creates three House objects.
 *Then display data for all the House objects. Save the files as House.java and TestHouses.java.
 */
-i will start with House class ,the file House.java
-There is a picture of my codes
+
+I will start with House class ,the file House.java
+here is my codes
 
 
         //House Class
