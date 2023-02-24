@@ -14,8 +14,6 @@ There is a picture of my codes
 
 
 package Houses; 
-
-
 public class House {
         //Declare variables
         private int no_bedrooms;        
