@@ -13,8 +13,8 @@ There is a picture of my codes
 
 
         //House Class
-package Houses; 
-public class House {
+        package Houses; 
+        public class House {
 
         //Declare variables
         private int no_bedrooms;        
