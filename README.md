@@ -1,18 +1,19 @@
-# House-Tester-methods.
+# House-Tester-method
+This article will provide a java program I've created in the CS232 course, including the process to create the program, and how java Methods can improve the program.
 
 *Problem Statement:
 *Create a class named House that holds: a house number,
 *number of bedrooms, number of baths, and price.
 *Create a constructor that accepts values for each data field. 
-*Also create a get method for each field. 
+*Also create a "et"method for each field. 
 *Write an application that creates three House objects.
 *Then display data for all the House objects. Save the files as House.java and TestHouses.java.
 */
 
-I will start with House class ,the file House.java
-here is my codes
+I started my program by creating the package. The package in the java program is a group of related classes. Our classes in this project were (House) Class and (TestHouses) Class.
+From the classes, we created two java files:House.java and TestHouse.java.
 
-
+I will start with House class/the file House.java.
         //House Class
         package Houses; 
         public class House {
