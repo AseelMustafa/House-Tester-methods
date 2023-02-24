@@ -12,7 +12,7 @@ i will start with House class ,the file House.java
 There is a picture of my codes
 
 
-//House Class
+        //House Class
 package Houses; 
 public class House {
 
