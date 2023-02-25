@@ -130,7 +130,7 @@ Here is the code of TestHouses class/file: TestHouse.java.
 
         #Output.
         
-![Screenshot (139)](https://user-images.githubusercontent.com/126033476/221377425-38f01308-1520-4c2a-b1dd-aa386e0bfa9b.=
+![Screenshot (139)](https://user-images.githubusercontent.com/126033476/221377425-38f01308-1520-4c2a-b1dd-aa386e0bfa9b.png)
 
 
 But i figured an easier way to display the data by using a display method
