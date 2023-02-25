@@ -123,6 +123,9 @@ I used System.out.println() to print the data.
         
 Here is the code of TestHouses class/file: TestHouse.java.
 
+![Screenshot (138)](https://user-images.githubusercontent.com/126033476/221377035-3f7b8f4d-c37e-4d2e-8e30-389d85a25ea4.png)
+
+
 
 
 
