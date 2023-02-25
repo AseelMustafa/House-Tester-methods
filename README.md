@@ -88,6 +88,41 @@ I started with the package ,created the class(TestHouses),and then used the main
         public static void main(String[]args){
         }
         
-![main_method copy](https://user-images.githubusercontent.com/126033476/221374165-71938b21-e780-4dd0-aee1-332f22828fbd.jpg)
+![main](https://user-images.githubusercontent.com/126033476/221374513-f59faf59-f0d4-4ec6-85f7-2d6dfcb6a52d.jpg)
+
+Created three house objects:house1,house2,house3,and I passed the inforamtion.
+
+        Everything in Java is associated with classes and objects, along with its attributes and methods. 
+        A Class is like an object constructor, or a "blueprint" for creating objects.
+
+        //Create three houses objects
+        House house1=new House(2, 150, 2, 190000);
+        House house2=new House(4, 302, 3, 3660000);
+        House house3=new House(3, 783, 2, 200000);
+
+The the last thing is displaying the data :
+I used System.out.println() to print the data.
 
         
+    System.out.println("Bedrooms:"+ house1.getBedroom());
+    System.out.println("House Number:"+house1.getHousenum());
+    System.out.println("Bathroom:"+house1.getBathroom());
+    System.out.println("Price"+house1.getPrice());
+    System.out.println("Bedrooms:"+house2.getBedroom());
+    System.out.println("House Number:"+house2.getHousenum());
+    System.out.println("Bathroom:"+house2.getBathroom());
+    System.out.println("Price"+house2.getPrice());
+    System.out.println("Bedrooms:"+house3.getBedroom());
+    System.out.println("House Number:"+house3.getHousenum());
+    System.out.println("Bathroom:"+house3.getBathroom());
+    System.out.println("Price"+house3.getPrice());
+    
+        }
+        }
+        
+        
+Here is the code of TestHouses class/file: TestHouse.java.
+
+
+
+
