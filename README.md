@@ -15,7 +15,8 @@ This article will provide a java program I've created in  CS232 course.It includ
          */
 
 I started the program by creating java package.The package in java program is used to group related classes. Our classes in this project were (House) Class and (TestHouses) Class.
-From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double 
+From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double-"Stores fractional numbers. Sufficient for storing 15 decimal digits",the price of the house).
+The next step is the Constructor-"A constructor in Java is a special method that is used to initialize objects."-I called the consurctour method when I created an object of a class.In the problem statment they also asked to create get method
 
 I will start with House class/the file House.java.
         
