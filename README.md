@@ -31,7 +31,7 @@ From the classes, we created two java files:House.java and TestHouse.java.I will
         private double price;
 
 
-The next step is the Constructor-"A constructor in Java is a special method that is used to initialize objects."-I called the consurctour method when I created an object of a class.In the problem statment they also asked to create get method
+The next step is the Constructor-"A constructor in Java is a special method that is used to initialize objects."-I called the consurctour method when I created an object of a class.
 
         //Constructor
         public House(int no_bedrooms,int housenum,int no_bathroom,double price){
@@ -41,6 +41,7 @@ The next step is the Constructor-"A constructor in Java is a special method that
             this.price=price;
         }
 
+In the problem statment they also asked to create get method
 Here is the code of House class/the file House.java.
 
 ![Screenshot (136)](https://user-images.githubusercontent.com/126033476/221367055-7b9f2dbb-c545-4d45-96c0-1e1f3cbd47bb.png)
