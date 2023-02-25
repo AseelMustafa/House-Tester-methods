@@ -14,9 +14,32 @@ This article will provide a java program I've created in  CS232 course.It includ
          *Then display data for all the House objects. Save the files as House.java and TestHouses.java.
          */
 
-I started the program by creating java package.The package in java program is used to group related classes. Our classes in this project were (House) Class and (TestHouses) Class.
+     
+I started the program by creating java package.The package in java program is used to group related classes. Our classes in this project were (House) Class and (TestHouses) Class.   
+
+        //House Class
+        package Houses; 
+        public class House {
+
+        
 From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double-"Stores fractional numbers. Sufficient for storing 15 decimal digits",the price of the house).
+
+        //Declare variables
+        private int no_bedrooms;
+        private int housenum;
+        private int no_bathroom;
+        private double price;
+
+
 The next step is the Constructor-"A constructor in Java is a special method that is used to initialize objects."-I called the consurctour method when I created an object of a class.In the problem statment they also asked to create get method
+
+        //Constructor
+        public House(int no_bedrooms,int housenum,int no_bathroom,double price){
+            this.no_bathroom=no_bathroom;
+            this.no_bedrooms=no_bedrooms;
+            this.housenum=housenum;
+            this.price=price;
+        }
 
 Here is the code of House class/the file House.java.
 
@@ -27,23 +50,10 @@ Here is the code of House class/the file House.java.
         
         
         
-        //House Class
-        package Houses; 
-        public class House {
 
-        //Declare variables
-        private int no_bedrooms;        
-        private int housenum;
-        private int no_bathroom;
-        private double price;
+
     
-        //Constructor
-        public House(int no_bedrooms,int housenum,int no_bathroom,double price){
-            this.no_bathroom=no_bathroom;
-            this.no_bedrooms=no_bedrooms;
-            this.housenum=housenum;
-            this.price=price;
-        }
+
         //Getters methods
         public int getBedroom(){
             return this.no_bedrooms;
