@@ -17,6 +17,9 @@ I started the program by creating java package.The package in java program is us
 From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double 
 
 I will start with House class/the file House.java.
+        
+        
+        
         //House Class
         package Houses; 
         public class House {
