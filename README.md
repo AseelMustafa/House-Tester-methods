@@ -1,6 +1,9 @@
 # House-Tester-method
-<intro>
+
+<introduction>
 This article will provide a java program I've created in  CS232 course.It includes: processes of how we created the program,and how we used the java variables,functions and objects.Also,it will include how i can improve the program by using Java methods. 
+        
+        
 *Problem Statement:
 *Create a class named House that holds: a house number,
 *number of bedrooms, number of baths, and price.
