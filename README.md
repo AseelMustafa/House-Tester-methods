@@ -14,14 +14,14 @@ This article will provide a java program I've created in  CS232 course.It includ
          *Then display data for all the House objects. Save the files as House.java and TestHouses.java.
          */
 
-     
+    
 I started the program by creating java package.The package in java program is used to group related classes. Our classes in this project were (House) Class and (TestHouses) Class.   
 
         //House Class
         package Houses; 
         public class House {
 
-        
+ #Creating House Class       
 From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double-"Stores fractional numbers. Sufficient for storing 15 decimal digits",the price of the house).
 
         //Declare variables
@@ -74,7 +74,9 @@ Here is the code of House class/file: House.java.
 ![Screenshot (136)](https://user-images.githubusercontent.com/126033476/221367055-7b9f2dbb-c545-4d45-96c0-1e1f3cbd47bb.png)
 
 ![Screenshot (137)](https://user-images.githubusercontent.com/126033476/221367063-9babf361-70fc-4d44-9fe3-c7616aac7dc4.png)
-
+       
+       
+#Creating the TestHouse Class        
         
         
         
