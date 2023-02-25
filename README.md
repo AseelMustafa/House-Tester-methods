@@ -1,5 +1,5 @@
 # House-Tester-method
-This article will provide a java program I've created in the CS232 course, including the process to create the program, and how java Methods can improve the program.
+This article will provide a java program I've created in  CS232 course.It is including the process to create the program, and how java Methods can improve the program.
 
 *Problem Statement:
 *Create a class named House that holds: a house number,
