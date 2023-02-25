@@ -11,7 +11,7 @@ This article will provide a java program I've created in the CS232 course, inclu
 */
 
 I started my program by creating the package. The package in the java program is a group of related classes. Our classes in this project were (House) Class and (TestHouses) Class.
-From the classes, we created two java files:House.java and TestHouse.java.
+From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double 
 
 I will start with House class/the file House.java.
         //House Class
