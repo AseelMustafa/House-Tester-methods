@@ -18,7 +18,7 @@ I started the program by creating java package.The package in java program is us
 From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double-"Stores fractional numbers. Sufficient for storing 15 decimal digits",the price of the house).
 The next step is the Constructor-"A constructor in Java is a special method that is used to initialize objects."-I called the consurctour method when I created an object of a class.In the problem statment they also asked to create get method
 
-I will start with House class/the file House.java.
+Here is the code of House class/the file House.java.
 
 ![Screenshot (136)](https://user-images.githubusercontent.com/126033476/221367055-7b9f2dbb-c545-4d45-96c0-1e1f3cbd47bb.png)
 
