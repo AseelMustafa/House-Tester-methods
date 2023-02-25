@@ -2,7 +2,7 @@
 
         <introduction>
         
-This article will provide a java program I've created in  CS232 course.It includes: processes of how we created the program,and how we used the java variables,functions and objects.Also,it will include how i can improve the program by using Java methods. 
+This article will provide a java program I've created in  CS232 course.It includes: processes of how we created the program,and how we used the java variables,functions and objects.Also,it will include how i can improve the program by using Java methods. ***we will go through the varibleds and create the get methods and another methods
         
         
         /*Problem Statement:
@@ -41,20 +41,18 @@ The next step is the Constructor-"A constructor in Java is a special method that
             this.price=price;
         }
 
-In the problem statment they also asked to create get method
-Here is the code of House class/the file House.java.
+In the problem statment they asked to create "get method",and we used the get method to returns the variable value.
+        here is how we can call a method in java program
+![methods get-in-java2](https://user-images.githubusercontent.com/126033476/221368432-5d0dfcda-788a-405d-b1a3-3e0850dbf41e.png)
 
-![Screenshot (136)](https://user-images.githubusercontent.com/126033476/221367055-7b9f2dbb-c545-4d45-96c0-1e1f3cbd47bb.png)
+<Here is what I did>
+To create the method I started with get ,followed with the variable name,and the first letter in upper case:
 
-![Screenshot (137)](https://user-images.githubusercontent.com/126033476/221367063-9babf361-70fc-4d44-9fe3-c7616aac7dc4.png)
-
+         //public int getBedroom(){
+The get method(getBedroom()) will return the value of the variable,which is the number of the bedroom(no_bedroom).
+Then I did the same thing for the the House number ,the number of bathroom ,and the price of the house.    
         
         
-        
-
-
-    
-
         //Getters methods
         public int getBedroom(){
             return this.no_bedrooms;
@@ -68,8 +66,22 @@ Here is the code of House class/the file House.java.
         public double getPrice(){
             return this.price;
         }
-    
         }
+
+
+Here is the code of House class/file: House.java.
+
+![Screenshot (136)](https://user-images.githubusercontent.com/126033476/221367055-7b9f2dbb-c545-4d45-96c0-1e1f3cbd47bb.png)
+
+![Screenshot (137)](https://user-images.githubusercontent.com/126033476/221367063-9babf361-70fc-4d44-9fe3-c7616aac7dc4.png)
+
+        
+        
+        
+
+
+    
+
 
     
         }
