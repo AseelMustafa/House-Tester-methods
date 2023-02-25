@@ -103,6 +103,9 @@ Created three house objects:house1,house2,house3,and I passed the inforamtion.
 The the last thing is displaying the data :
 I used System.out.println() to print the data.
 
+![system](https://user-images.githubusercontent.com/126033476/221377249-5ad890d2-d0ed-408b-8c95-87821bb6530c.png)
+
+
         
     System.out.println("Bedrooms:"+ house1.getBedroom());
     System.out.println("House Number:"+house1.getHousenum());
