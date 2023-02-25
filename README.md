@@ -88,3 +88,6 @@ I started with the package ,created the class(TestHouses),and then used the main
         public static void main(String[]args){
         }
         
+![main_method copy](https://user-images.githubusercontent.com/126033476/221374165-71938b21-e780-4dd0-aee1-332f22828fbd.jpg)
+
+        
