@@ -74,16 +74,17 @@ Here is the code of House class/file: House.java.
 ![Screenshot (136)](https://user-images.githubusercontent.com/126033476/221367055-7b9f2dbb-c545-4d45-96c0-1e1f3cbd47bb.png)
 
 ![Screenshot (137)](https://user-images.githubusercontent.com/126033476/221367063-9babf361-70fc-4d44-9fe3-c7616aac7dc4.png)
+        
        
-       
-#Creating the TestHouse Class        
+
+        ## Also,in the problem statments: < Write an application that creates three House objects.>
         
+#Creating the TestHouse Class      
+I started with the package ,created the class(TestHouses),and then used the main method.The main method needs a <public> modifier,and we still dont have any objects created in the class  we used <static>.<void> is the return type.
         
-        
-
-
-    
-
-
-    
+        package Houses;
+        public class TestHouses {
+        //The main method in java: 
+        public static void main(String[]args){
         }
+        
