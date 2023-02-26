@@ -133,7 +133,15 @@ Here is the code of TestHouses class/file: TestHouse.java.
 ![Screenshot (139)](https://user-images.githubusercontent.com/126033476/221377425-38f01308-1520-4c2a-b1dd-aa386e0bfa9b.png)
 
 
-But i figured an easier way to display the data by using a display method
+But the is an easier way to print the data, and it is by using java methods. Creating a display method will save you so much time, and it will help you  to do not miss any data.
+        So instead of printing the data (as in the above picture TestHouse file, in TestHouse class we displayed the data from lines 10 to 19) we can create a display method.
+        
+        
+Here is what Im going to do ,I will solve the same proplem using display method in TestHouse class.
+I willcomment out the data-lines10-19-in TestHouse class,and I will create housedislplay() method,then I will call the method.
+        
+                here is how we can call a method in java:
+    
 
 
 
