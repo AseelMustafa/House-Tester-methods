@@ -1,9 +1,8 @@
 # House-Tester-method
 
-        <introduction>
+This article will provide a java program I've created in  CS232 course. Including the processes and the steps of the program, how to create java program, and how to use some of the java variables, methods, functions, and objects.Also,it will provide you with Java methods,and the benefint of these method.Java method, such as the get method.Create your own method, and call it. In the end, it will show how would I improve the program by using java methods. 
         
-This article will provide a java program I've created in  CS232 course.It includes: processes of how we created the program,and how we used the java variables,functions and objects.Also,it will include how i can improve the program by using Java methods. ***we will go through the varibleds and create the get methods and another methods
-        
+&&&The program should show the people information of some houses inforamtion 
         
         /*Problem Statement:
          *Create a class named House that holds: a house number,
@@ -15,15 +14,14 @@ This article will provide a java program I've created in  CS232 course.It includ
          */
 
     
-I started the program by creating java package.The package in java program is used to group related classes. Our classes in this project were (House) Class and (TestHouses) Class.   
+I started the program by creating a java package. The package in java program is used to group related classes. The classes in this project were (House) Class and (TestHouses) Class.   
 
         //House Class
         package Houses; 
         public class House {
 
- #Creating House Class       
-From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths).(Double-"Stores fractional numbers. Sufficient for storing 15 decimal digits",the price of the house).
-
+#Creating House Class       
+From the classes, we created two java files:House.java and TestHouse.java.I will start with the House Class steps and processes: First, create a House class, then declare the variables using the private modifier-"The private access modifier is accessible only within the class"- and use int and double data type. (int-"stores whole numbers", a house number, number of bedrooms, number of baths). (Double-"Stores fractional numbers. Sufficient for storing 15 decimal digits", the price of the house).
         //Declare variables
         private int no_bedrooms;
         private int housenum;
@@ -80,8 +78,10 @@ Here is the code of House class/file: House.java.
         ## Also,in the problem statments: < Write an application that creates three House objects.>
         
 #Creating the TestHouse Class      
-I started with the package ,created the class(TestHouses),and then used the main method.The main method needs a <public> modifier,and we still dont have any objects created in the class  we used <static>.<void> is the return type.
-        
+The Test Houses class processes: start with the package, followed by creating the class(TestHouses), and then use the main method.
+The <main>method needs a modifier that is <public>.
+Followed with <static> because we still don't have any objects created inside the class. Void is the return type  
+
         package Houses;
         public class TestHouses {
         //The main method in java: 
@@ -90,10 +90,10 @@ I started with the package ,created the class(TestHouses),and then used the main
         
 ![main](https://user-images.githubusercontent.com/126033476/221374513-f59faf59-f0d4-4ec6-85f7-2d6dfcb6a52d.jpg)
 
-Created three house objects:house1,house2,house3,and I passed the inforamtion.
+Created three house objects:house 1,house 2,house 3, and I passed the information.
 
-        Everything in Java is associated with classes and objects, along with its attributes and methods. 
-        A Class is like an object constructor, or a "blueprint" for creating objects.
+        /*Everything in Java is associated with classes and objects, along with its attributes and methods. 
+        A Class is like an object constructor, or a "blueprint" for creating objects.*/
 
         //Create three houses objects
         House house1=new House(2, 150, 2, 190000);
@@ -133,21 +133,44 @@ Here is the code of TestHouses class/file: TestHouse.java.
 ![Screenshot (139)](https://user-images.githubusercontent.com/126033476/221377425-38f01308-1520-4c2a-b1dd-aa386e0bfa9b.png)
 
 
-But the is an easier way to print the data, and it is by using java methods. Creating a display method will save you so much time, and it will help you  to do not miss any data.
-        So instead of printing the data (as in the above picture TestHouse file, in TestHouse class we displayed the data from lines 10 to 19) we can create a display method.
+But there is an easier way to print the data, and it is by using java methods.-Java Method:is a block of code that performs a specific task-
+Creating a display method will save you so much time, and it will help you  to do not miss any data.
+So instead of printing the data (as in the above picture TestHouse file, in TestHouse class we displayed the data from lines 10 to 19) we can create a display method.
         
         
 Here is what Im going to do ,I will solve the same proplem using display method in TestHouse class.
-I willcomment out the data-lines10-19-in TestHouse class,and I will create housedislplay() method,then I will call the method.
+I will comment out the data-lines10-19-in TestHouse class,and I will create housedislplay() method,then I will call the method.
         
-                Here is the code after creating and calling housedisplay() method:
+         /*creating housedisplay method:
+         
+         *housediaply() is the name of the method,followed by open and closed parentheses.
+         *Make sure you only call a method within a class that has access to it.*/
+         
+         public static void houseDisplay(House house){
+
+        
+Here is the code after creating and calling housedisplay() method:
                 
 ![image](https://user-images.githubusercontent.com/126033476/221422046-826fd938-b014-4651-a6c5-015b11f7f15a.png)
 
 
                 Output:
                 
-I have the same result in effortless way:
+I effortlessly got the same result:
+![Screenshot (142)](https://user-images.githubusercontent.com/126033476/221422492-3f714d9d-ba87-4dc9-af08-2d69312741ba.png)
+
+
+                #In conclusion:
+In Java, there are two types of methods:
+User-defined Methods: We can create our own method based on our requirements.
+
+Standard Library Methods: These are built-in methods in Java that are available to use.such as package.
+You can use the same method, again and again. Methods make code more readable and easier to debug. In this program when we creare our own method, the housedisplay () method keeps the code to provide the three houses' information. Which, makes it more readable.
+
+
+
+
+
 
 
 
