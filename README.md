@@ -1,6 +1,6 @@
 # House-Tester-method
 
-This article will provide a java program I've created in  CS232 course. Including the processes and the steps of the program, how I created the java program, and how to use some of the java variables, methods, functions, and objects.Also,it will provide you with Java methods,and the benefint of these methods.Methods, such as the get method.Create your own method, and call it. In the end, it will show how would I improve the program by using java methods. 
+This article will provide a java program I've created in  CS232 course. Including the processes and the steps of the program, how I created the java program, and how to use some of the java variables, methods, functions, and objects.Also,it will provide you with Java methods,and the benefint of these methods,such as the get method.Create your own method, and call it. In the end, it will show how would I improve the program by using java methods. 
                 
         /*Problem Statement:
          *Create a class named House that holds: a house number,
