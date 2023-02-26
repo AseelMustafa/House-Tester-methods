@@ -160,12 +160,16 @@ I effortlessly got the same result:
 ![Screenshot (142)](https://user-images.githubusercontent.com/126033476/221422492-3f714d9d-ba87-4dc9-af08-2d69312741ba.png)
 
 
-                #In conclusion:
+# In-conclusion:
+               
 In Java, there are two types of methods:
-User-defined Methods: We can create our own method based on our requirements.
+1.User-defined Methods: We can create our own method based on our requirements.
+2.Standard Library Methods: These are built-in methods in Java that are available to use.such as package.
 
-Standard Library Methods: These are built-in methods in Java that are available to use.such as package.
 You can use the same method, again and again. Methods make code more readable and easier to debug. In this program when we creare our own method, the housedisplay () method keeps the code to provide the three houses' information. Which, makes it more readable.
+
+![types-of-methods-in-java](https://user-images.githubusercontent.com/126033476/221430327-f9047c14-827c-491b-9991-aaeaf5d750c8.jpg)
+
 
 
 
