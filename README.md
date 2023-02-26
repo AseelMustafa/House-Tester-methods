@@ -140,8 +140,14 @@ But the is an easier way to print the data, and it is by using java methods. Cre
 Here is what Im going to do ,I will solve the same proplem using display method in TestHouse class.
 I willcomment out the data-lines10-19-in TestHouse class,and I will create housedislplay() method,then I will call the method.
         
-                here is how we can call a method in java:
-    
+                Here is the code after creating and calling housedisplay() method:
+                
+![image](https://user-images.githubusercontent.com/126033476/221422046-826fd938-b014-4651-a6c5-015b11f7f15a.png)
+
+
+                Output:
+                
+I have the same result in effortless way:
 
 
 
